@@ -14,7 +14,7 @@
 }
 
  .u-section-1-1 {
-  background-image: url("images/iStock-1418295787.jpg");
+  background-image: url("/images/iStock-1418295787.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +55,7 @@
 }
 
  .u-section-1-2 {
-  background-image: url("images/iStock-1495890489.jpg");
+  background-image: url("/images/iStock-1495890489.jpg");
   background-position: 50% 90.8%;
   background-size: cover;
 }
@@ -95,7 +95,7 @@
 }
 
  .u-section-1-3 {
-  background-image: url("images/iStock-1474305367.jpg");
+  background-image: url("/images/iStock-1474305367.jpg");
   background-position: 50% 0%;
   background-size: cover;
 }
@@ -135,7 +135,7 @@
 }
 
  .u-section-1-4 {
-  background-image: url("images/iStock-2226709735.jpg");
+  background-image: url("/images/iStock-2226709735.jpg");
   background-position: 50% 50%;
 }
 
@@ -174,7 +174,7 @@
 }
 
  .u-section-1-5 {
-  background-image: url("images/iStock-1385741177.jpg");
+  background-image: url("/images/iStock-1385741177.jpg");
   background-position: 100% 50%;
   background-size: cover;
 }
@@ -222,12 +222,12 @@
 }
 
 .u-section-2 .u-image-1 {
-  width: 571px;
+  width: 469px;
   height: 474px;
   --radius: 50px;
   object-position: 50% 33.53%;
   box-shadow: 0px 2px 8px 0px rgba(128,128,128,1);
-  margin: 71px auto 0 182px;
+  margin: 71px auto 0 234px;
 }
 
 .u-section-2 .u-text-1 {
@@ -242,18 +242,18 @@
 }
 
 .u-section-2 .u-image-2 {
-  width: 571px;
+  width: 470px;
   height: 474px;
   --radius: 50px;
   box-shadow: 0px 2px 8px 0px rgba(128,128,128,1);
   object-position: 50% 45.05%;
-  margin: 174px auto 0 848px;
+  margin: 182px 232px 0 auto;
 }
 
 .u-section-2 .u-text-3 {
   font-weight: 600;
   font-size: 1.875rem;
-  margin: -352px 405px 0 182px;
+  margin: -360px 405px 0 182px;
 }
 
 .u-section-2 .u-text-4 {
@@ -293,7 +293,6 @@
     height: 450px;
     margin-top: 187px;
     margin-right: 42px;
-    margin-left: auto;
   }
 
   .u-section-2 .u-text-3 {
@@ -365,7 +364,7 @@
     width: 400px;
     height: 360px;
     margin-top: 82px;
-    margin-right: auto;
+    margin-right: 232px;
     margin-left: 320px;
   }
 
@@ -385,6 +384,10 @@
     min-height: 872px;
   }
 
+  .u-section-2 .u-image-1 {
+    margin-left: 71px;
+  }
+
   .u-section-2 .u-text-1 {
     margin-top: 20px;
     margin-right: 0;
@@ -392,11 +395,13 @@
   }
 
   .u-section-2 .u-text-2 {
+    font-size: 1.1111111111111112rem;
     margin-left: 40px;
   }
 
   .u-section-2 .u-image-2 {
     height: 323px;
+    margin-right: 70px;
     margin-left: 140px;
   }
 
@@ -405,6 +410,7 @@
   }
 
   .u-section-2 .u-text-4 {
+    font-size: 1.1111111111111112rem;
     margin-right: 251px;
   }
 }
@@ -416,8 +422,9 @@
 
   .u-section-2 .u-image-1 {
     width: 340px;
-    height: 282px;
+    height: 344px;
     margin-top: 32px;
+    margin-left: 0;
   }
 
   .u-section-2 .u-text-1 {
@@ -431,8 +438,8 @@
 
   .u-section-2 .u-image-2 {
     width: 340px;
-    height: 282px;
-    margin-left: 0;
+    height: 343px;
+    margin-left: auto;
     margin-right: 0;
   }
 
@@ -1075,6 +1082,12 @@
     margin-left: 0;
     margin-right: 0;
   }
+}
+
+@media (max-width: 767px) {
+  .u-section-5 .u-text-1 {
+    font-size: 1.3333333333333333rem;
+  }
 } .u-section-6 {
   background-image: none;
 }
@@ -1091,7 +1104,7 @@
 .u-section-6 .u-image-1 {
   min-height: 432px;
   --radius: 50px;
-  background-image: url("images/photo_2025-09-05_07-13-29.png");
+  background-image: url("/images/photo_2025-09-05_07-13-29.png");
   background-position: 50% 50%;
 }
 
@@ -1141,7 +1154,7 @@
 
 .u-section-6 .u-image-2 {
   min-height: 432px;
-  background-image: url("images/photo_2025-09-05_07-13-44.png");
+  background-image: url("/images/photo_2025-09-05_07-13-44.png");
   background-size: cover;
   background-position: 50% 50%;
   --radius: 50px;
@@ -1153,7 +1166,7 @@
 
 .u-section-6 .u-image-3 {
   min-height: 413px;
-  background-image: url("images/photo_2025-09-05_07-13-37.png");
+  background-image: url("/images/photo_2025-09-05_07-13-37.png");
   background-position: 50% 50%;
   --radius: 50px;
 }
@@ -3099,7 +3112,7 @@
 .u-section-9 .u-image-1 {
   width: 50px;
   height: 50px;
-  background-image: url("images/1000_F_215127926_9v0YpAOn5HpLGtxxdxgC0Lg63Nu7rPLr.jpg");
+  background-image: url("/images/1000_F_215127926_9v0YpAOn5HpLGtxxdxgC0Lg63Nu7rPLr.jpg");
   background-position: 50% 50%;
   margin: 48px auto 0 1px;
 }
