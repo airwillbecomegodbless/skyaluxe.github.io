@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("/images/UpperLevelDeck.png");
+  background-image: url("../images/UpperLevelDeck.png");
   background-position: 50% 16.13%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -579,7 +579,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 320px;
-  background-image: url("/images/poly-opal.jpg");
+  background-image: url("../images/poly-opal.jpg");
   --radius: 50px;
   background-position: 50% 50%;
 }
@@ -652,7 +652,7 @@
 
 .u-section-5 .u-image-2 {
   min-height: 326px;
-  background-image: url("/images/VSG-opal.jpg");
+  background-image: url("../images/VSG-opal.jpg");
   --radius: 50px;
   background-position: 50% 50%;
 }
@@ -663,7 +663,7 @@
 
 .u-section-5 .u-image-3 {
   min-height: 326px;
-  background-image: url("/images/poly-klar.jpg");
+  background-image: url("../images/poly-klar.jpg");
   background-position: 50% 50%;
   --radius: 50px;
 }
@@ -736,7 +736,7 @@
 
 .u-section-5 .u-image-4 {
   min-height: 320px;
-  background-image: url("/images/vsg-klar.jpg");
+  background-image: url("../images/vsg-klar.jpg");
   --radius: 50px;
   background-position: 50% 50%;
 }
@@ -1892,7 +1892,7 @@
   --radius: 50px;
   min-height: 307px;
   background-position: 50% 50%;
-  background-image: url("/images/WoodenWall700.png");
+  background-image: url("../images/WoodenWall700.png");
   background-size: cover;
 }
 
@@ -1972,7 +1972,7 @@
   --radius: 50px;
   min-height: 377px;
   background-position: 50% 50%;
-  background-image: url("/images/AluminiumWall700.png");
+  background-image: url("../images/AluminiumWall700.png");
   background-size: cover;
 }
 
@@ -1984,7 +1984,7 @@
   --radius: 50px;
   min-height: 377px;
   background-position: 50% 50%;
-  background-image: url("/images/LED700.png");
+  background-image: url("../images/LED700.png");
   background-size: cover;
 }
 
@@ -2064,7 +2064,7 @@
   --radius: 50px;
   min-height: 307px;
   background-position: 50% 50%;
-  background-image: url("/images/PVCwall700.png");
+  background-image: url("../images/PVCwall700.png");
   background-size: cover;
 }
 
@@ -2074,7 +2074,7 @@
 
 .u-section-8 .u-image-5 {
   min-height: 377px;
-  background-image: url("/images/RetractableScreen700.png");
+  background-image: url("../images/RetractableScreen700.png");
   --radius: 50px;
   background-position: 50% 50%;
 }
@@ -2175,7 +2175,7 @@
 
 .u-section-8 .u-image-6 {
   min-height: 377px;
-  background-image: url("/images/FixedGlassWall700.png");
+  background-image: url("../images/FixedGlassWall700.png");
   --radius: 50px;
   background-position: 50% 50%;
 }
@@ -2193,7 +2193,7 @@
   --radius: 50px;
   min-height: 378px;
   background-position: 50% 57.98%;
-  background-image: url("/images/SlidingGlassDoors700.png");
+  background-image: url("../images/SlidingGlassDoors700.png");
   background-size: cover;
 }
 
@@ -2273,7 +2273,7 @@
   --radius: 50px;
   min-height: 378px;
   background-position: 50% 50%;
-  background-image: url("/images/RoofShelter700.png");
+  background-image: url("../images/RoofShelter700.png");
   background-size: cover;
 }
 
