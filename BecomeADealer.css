@@ -1,12 +1,12 @@
  .u-section-1 {
-  background-image: url("images/iStock-1495890489.jpg");
-  background-position: 50% 50%;
+  background-image: url("/images/iStock-1418295787.jpg");
+  background-position: 50% 76.17%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1150px;
+  min-height: 1000px;
 }
 
 @media (max-width: 1399px) {
@@ -66,7 +66,7 @@
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  width: 1314px;
+  width: 1212px;
   margin: 60px auto;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .u-section-2 .u-text-3 {
-  margin: 60px 212px 0 0;
+  margin: 60px 150px 0 0;
 }
 
 .u-section-2 .u-text-4 {
@@ -110,7 +110,7 @@
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 496px;
+    min-height: 538px;
   }
 
   .u-section-2 .u-text-1 {
@@ -126,7 +126,7 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 496px;
+    min-height: 538px;
   }
 }
 
@@ -144,7 +144,7 @@
   .u-section-2 .u-layout-cell-1 {
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 409px;
+    min-height: 444px;
   }
 
   .u-section-2 .u-text-2 {
@@ -159,7 +159,7 @@
     background-position: 74.32% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 409px;
+    min-height: 444px;
   }
 }
 
@@ -187,7 +187,7 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 313px;
+    min-height: 340px;
   }
 }
 
@@ -217,7 +217,7 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 470px;
+    min-height: 510px;
   }
 
   .u-section-2 .u-container-layout-2 {
@@ -246,7 +246,7 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 296px;
+    min-height: 321px;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 728px;

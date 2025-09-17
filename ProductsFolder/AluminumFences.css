@@ -1,12 +1,12 @@
  .u-section-1 {
-  background-image: url("../images/AluminumFence.png");
+  background-image: url("/images/AluminumFence.png");
   background-position: 50% 0.64%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1150px;
+  min-height: 1000px;
 }
 
 @media (max-width: 1399px) {
@@ -628,7 +628,7 @@
 .u-section-5 .u-text-2 {
   font-weight: 700;
   font-size: 1.5rem;
-  margin: 17px 21px 0;
+  margin: 11px 21px 0;
 }
 
 .u-section-5 .u-text-3 {
@@ -664,7 +664,7 @@
 .u-section-5 .u-text-4 {
   font-weight: 700;
   font-size: 1.5rem;
-  margin: 17px 21px 0;
+  margin: 11px 21px 0;
 }
 
 .u-section-5 .u-text-5 {
@@ -700,7 +700,7 @@
 .u-section-5 .u-text-6 {
   font-weight: 700;
   font-size: 1.5rem;
-  margin: 17px 21px 0;
+  margin: 11px 21px 0;
 }
 
 .u-section-5 .u-text-7 {

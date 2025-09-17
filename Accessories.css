@@ -1,12 +1,12 @@
  .u-section-1 {
-  background-image: url("images/iStock-1385741177.jpg");
+  background-image: url("/images/iStock-1385741177.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1150px;
+  min-height: 1000px;
 }
 
 @media (max-width: 1399px) {
@@ -164,7 +164,7 @@
 
 .u-section-4 .u-image-1 {
   background-position: 50% 50%;
-  background-image: url("images/RetractableScreen.png");
+  background-image: url("/images/RetractableScreen.png");
   background-size: cover;
   transition-duration: 0.6s;
 }
@@ -397,7 +397,7 @@
 
 .u-section-5 .u-image-1 {
   background-position: 50% 50%;
-  background-image: url("images/WoodenWall.png");
+  background-image: url("/images/WoodenWall.png");
   background-size: cover;
   transition-duration: 0.6s;
 }
@@ -639,7 +639,7 @@
 
 .u-section-6 .u-image-1 {
   background-position: 50% 50%;
-  background-image: url("images/FixedGlassWall.png");
+  background-image: url("/images/FixedGlassWall.png");
   background-size: cover;
   transition-duration: 0.6s;
 }
@@ -689,7 +689,7 @@
 
 .u-section-6 .u-text-4 {
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1rem;
   margin: 0;
 }
 
@@ -878,7 +878,7 @@
 
 .u-section-7 .u-image-1 {
   background-position: 50% 50%;
-  background-image: url("images/SlidingGlassDoors.png");
+  background-image: url("/images/SlidingGlassDoors.png");
   background-size: cover;
   transition-duration: 0.6s;
 }
@@ -928,7 +928,7 @@
 
 .u-section-7 .u-text-4 {
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1rem;
   margin: 0;
 }
 
@@ -1111,7 +1111,7 @@
 
 .u-section-8 .u-image-1 {
   background-position: 50% 60.83%;
-  background-image: url("images/PVCwall.png");
+  background-image: url("/images/PVCwall.png");
   background-size: cover;
   transition-duration: 0.6s;
 }
@@ -1343,7 +1343,7 @@
 
 .u-section-9 .u-image-1 {
   background-position: 50% 50%;
-  background-image: url("images/LED.png");
+  background-image: url("/images/LED.png");
   background-size: cover;
   transition-duration: 0.6s;
 }
@@ -1588,7 +1588,7 @@
 
 .u-section-10 .u-image-1 {
   background-position: 50% 50%;
-  background-image: url("images/AluminiumWall.png");
+  background-image: url("/images/AluminiumWall.png");
   background-size: cover;
   transition-duration: 0.6s;
 }
@@ -1815,7 +1815,7 @@
 
 .u-section-11 .u-image-1 {
   background-position: 50% 50%;
-  background-image: url("images/RoofShelter.png");
+  background-image: url("/images/RoofShelter.png");
   background-size: cover;
   transition-duration: 0.6s;
 }
