@@ -200,7 +200,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   transition-duration: 0.5s;
-  margin: -300px auto 0 805px;
+  margin: -300px auto 0 1215px;
 }
 
 .u-section-3 .u-image-9 {
@@ -211,8 +211,9 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   transition-duration: 0.5s;
-  margin: -300px auto 0 1215px;
+  margin: -300px 395px 0 auto;
 }
 
 .u-section-3 .u-image-10 {
@@ -284,20 +285,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   transition-duration: 0.5s;
-  margin: -300px auto 0 395px;
-}
-
-.u-section-3 .u-image-16 {
-  width: 400px;
-  height: 300px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
-  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
-  transition-duration: 0.5s;
-  margin: -300px auto 34px 805px;
+  margin: -300px auto 34px 395px;
 }
 
 @media (max-width: 1399px) {
@@ -358,7 +346,7 @@
   .u-section-3 .u-image-8 {
     width: 300px;
     height: 225px;
-    margin-top: 555px;
+    margin-top: 556px;
     margin-right: 110px;
     margin-left: auto;
   }
@@ -366,14 +354,13 @@
   .u-section-3 .u-image-9 {
     width: 300px;
     height: 225px;
-    margin-top: 211px;
+    margin-top: -260px;
     margin-left: 110px;
   }
 
   .u-section-3 .u-image-10 {
     width: 300px;
     height: 225px;
-    margin-top: -460px;
     margin-left: 110px;
   }
 
@@ -411,14 +398,7 @@
     height: 225px;
     margin-top: -770px;
     margin-left: auto;
-  }
-
-  .u-section-3 .u-image-16 {
-    width: 300px;
-    height: 225px;
-    margin-top: 50px;
     margin-bottom: 60px;
-    margin-left: 110px;
   }
 }
 
@@ -457,10 +437,12 @@
   }
 
   .u-section-3 .u-image-9 {
+    margin-top: -450px;
     margin-left: 548px;
   }
 
   .u-section-3 .u-image-10 {
+    margin-top: -235px;
     margin-left: 548px;
   }
 
@@ -484,10 +466,6 @@
   .u-section-3 .u-image-15 {
     margin-left: 403px;
   }
-
-  .u-section-3 .u-image-16 {
-    margin-left: 548px;
-  }
 }
 
 @media (max-width: 991px) {
@@ -510,13 +488,13 @@
   }
 
   .u-section-3 .u-image-4 {
-    margin-top: 1460px;
-    margin-right: auto;
-    margin-left: 365px;
+    margin-top: 1225px;
+    margin-right: 55px;
+    margin-left: auto;
   }
 
   .u-section-3 .u-image-5 {
-    margin-top: -1515px;
+    margin-top: -1280px;
     margin-left: 365px;
   }
 
@@ -532,16 +510,18 @@
 
   .u-section-3 .u-image-8 {
     margin-top: 520px;
-    margin-right: auto;
-    margin-left: 365px;
+    margin-right: 55px;
+    margin-left: auto;
   }
 
   .u-section-3 .u-image-9 {
-    margin-top: 245px;
-    margin-left: 365px;
+    margin-top: -30px;
+    margin-right: 320px;
+    margin-left: 55px;
   }
 
   .u-section-3 .u-image-10 {
+    margin-top: -185px;
     margin-left: 365px;
   }
 
@@ -568,11 +548,6 @@
   .u-section-3 .u-image-15 {
     margin-top: -890px;
     margin-left: 365px;
-  }
-
-  .u-section-3 .u-image-16 {
-    margin-top: 205px;
-    margin-left: 55px;
   }
 }
 
@@ -620,10 +595,13 @@
   }
 
   .u-section-3 .u-image-9 {
+    margin-top: -490px;
+    margin-right: 140px;
     margin-left: 148px;
   }
 
   .u-section-3 .u-image-10 {
+    margin-top: -195px;
     margin-left: 148px;
   }
 
@@ -647,19 +625,15 @@
   .u-section-3 .u-image-15 {
     margin-left: 148px;
   }
-
-  .u-section-3 .u-image-16 {
-    margin-left: 148px;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 4015px;
+    min-height: 3772px;
   }
 
   .u-section-3 .u-image-1 {
-    margin-top: 38px;
+    margin-top: 34px;
     margin-left: auto;
   }
 
@@ -696,23 +670,24 @@
   }
 
   .u-section-3 .u-image-8 {
-    margin-top: 1185px;
+    margin-top: 950px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .u-section-3 .u-image-9 {
-    margin-top: -460px;
+    margin-top: 10px;
     margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-3 .u-image-10 {
-    margin-top: 950px;
+    margin-top: 480px;
     margin-left: auto;
   }
 
   .u-section-3 .u-image-11 {
-    margin-top: -2105px;
+    margin-top: -1870px;
     margin-left: auto;
   }
 
@@ -721,7 +696,7 @@
   }
 
   .u-section-3 .u-image-13 {
-    margin-top: 1185px;
+    margin-top: 950px;
     margin-left: auto;
   }
 
@@ -731,28 +706,23 @@
   }
 
   .u-section-3 .u-image-15 {
-    margin-top: -1165px;
+    margin-top: -930px;
     margin-left: auto;
-  }
-
-  .u-section-3 .u-image-16 {
-    margin-top: 480px;
-    margin-left: auto;
-    margin-bottom: 743px;
+    margin-bottom: 1209px;
   }
 }
 
-.u-section-3 .u-image-16,
-.u-section-3 .u-image-16:before,
-.u-section-3 .u-image-16 > .u-container-layout:before {
+.u-section-3 .u-image-9,
+.u-section-3 .u-image-9:before,
+.u-section-3 .u-image-9 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-3 .u-image-16.u-image-16.u-image-16:hover {
+.u-section-3 .u-image-9.u-image-9.u-image-9:hover {
   border-radius: 30px !important;
 }
 
-.u-section-3 .u-image-16.u-image-16.u-image-16.hover {
+.u-section-3 .u-image-9.u-image-9.u-image-9.hover {
   border-radius: 30px !important;
 }
 
@@ -837,20 +807,6 @@
 }
 
 .u-section-3 .u-image-13.u-image-13.u-image-13.hover {
-  border-radius: 30px !important;
-}
-
-.u-section-3 .u-image-9,
-.u-section-3 .u-image-9:before,
-.u-section-3 .u-image-9 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}
-
-.u-section-3 .u-image-9.u-image-9.u-image-9:hover {
-  border-radius: 30px !important;
-}
-
-.u-section-3 .u-image-9.u-image-9.u-image-9.hover {
   border-radius: 30px !important;
 }
 

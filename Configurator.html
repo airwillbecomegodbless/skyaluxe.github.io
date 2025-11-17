@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="​Thoughtful, collaborative and insightful, ​Creates Unique Design and Construction According to Clients’ Needs, ​Wood Truss Systems, Responsive Pricing​ Table, $ 30, $ 60, Building Company, Read what our customers say">
+    <meta name="description" content="">
+    <title>Configurator</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="Configurator.css" media="screen">
+    <link rel="stylesheet" href="css/configurator.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 7.13.0, nicepage.com">
+    <!-- <script src="pluginJS/jquery.js"></script> -->
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900">
+    <!-- <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "skya",
+            "sameAs": [
+                    "https://www.facebook.com/share/1JMCrtixBR/?mibextid=wwXIfr",
+                    "https://www.instagram.com/skyaluxe?igsh=OGQ1MW1yZml6NHJi&utm_source=qr"
+            ]
+        }
+    </script> -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "./pluginJS/three.module.js",
+                "three-ext/": "./pluginJS/three-ext/",
+                "../libs/": "./pluginJS/libs/",
+                "../curves/": "./pluginJS/curves/"
+            }
+        }
+    </script>
+    <script src="pluginJS/gsap.min.js"></script>
+    <meta name="theme-color" content="#89b2d8">
+    <meta property="og:title" content="Accessories">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta data-intl-tel-input-cdn-path="intlTelInput/">
+</head>
+<body class="body-configurator">
+    
+    <div id="Header"></div>
+
+    <div class="main-content">
+        <div class="sidebar">
+            <h2>Configurator Settings</h2>
+
+            <div class="sidebar-inner accordion">
+
+                <!-- Model -->
+                <div class="accordion-item">
+                    <div class="accordion-header">1. Model</div>
+                    <div class="accordion-content">
+                    <select id="selectModel">
+                        <option value="car">Carport</option>
+                        <option value="patio">Patio / Terrace</option>
+                        <option value="pergola">Pergola</option>
+                    </select>
+                    </div>
+                </div>
+
+                <!-- Installation -->
+                <div class="accordion-item">
+                    <div class="accordion-header">2. Installation</div>
+                    <div class="accordion-content">
+                        <div class="input-row" id="setInstallAttached">
+                            <label class="type-label"> Attached</label>
+                            <input type="radio" name="install" value="attached" checked>
+                        </div>
+                        <div class="input-row" id="setInstallFree">
+                            <label class="type-label">Freestanding</label>
+                            <input type="radio" name="install" value="free">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dimensions -->
+                <div class="accordion-item">
+                    <div class="accordion-header">3. Dimensions</div>
+                    <div class="accordion-content">
+                        <div class="input-row">
+                            <label class="type-label">Height (inches)</label>
+                            <input class="input-dimension" id="inputHeight" type="range" min="78" max="158" step="3">
+                            <label class="value-label" id="valueHeight">200</label>
+                        </div>
+                        <div class="input-row">
+                            <label class="type-label">Width (inches)</label>
+                            <input class="input-dimension" id="inputWidth" type="range" min="78" max="355" step="3">
+                            <label class="value-label" id="valueWidth"></label>
+                        </div>
+                        <div class="input-row">
+                            <label class="type-label">Depth (inches)</label>
+                            <input class="input-dimension" id="inputDepth" type="range" min="78" max="177" step="3">
+                            <label class="value-label" id="valueDepth"></label>
+                        </div>
+                        <div class="input-row">
+                            <label class="type-label">Roof Slope (°)</label>
+                            <input class="input-dimension" id="inputSlope" type="range" min="5" max="14" step="1">
+                            <label class="value-label" id="valueSlope"></label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frame Colors -->
+                <div class="accordion-item">
+                    <div class="accordion-header">4. Frame Color</div>
+                    <div class="accordion-content">
+                        <div class="color-options" id="colorOptionWrapper"></div>
+                    </div>
+                </div>
+
+                <!-- Roof Panel -->
+                <div class="accordion-item">
+                    <div class="accordion-header">5. Roof Panel</div>
+                    <div class="accordion-content">
+                        <select id="roofPanelSelect">
+                            <option value="3-clearGlass">3/8&quot; Clear Laminated Glass</option>
+                            <option value="3-frostGlass">3/8&quot; Frosted Laminated Glass</option>
+                            <option value="5-clearPolycarbonate">5/8&quot; Clear Polycarbonate</option>
+                            <option value="5-opalPolycarbonate">5/8&quot; Opal Polycarbonate</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">6. Roof shelter</div>
+                    <div class="accordion-content">
+                        <div class="input-row">
+                            <label>Roof Shelter</label>
+                            <input type="checkbox" id="roofShelter" style="width: 16px; height: 16px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">7. Wedge</div>
+                    <div class="accordion-content">
+                        <div class="input-row">
+                            <label>Wedge</label>
+                            <input type="checkbox" id="wedgeSwitch" style="width: 16px; height: 16px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accessories -->
+                <div class="accordion-item">
+                    <div class="accordion-header">8. Accessories</div>
+                    <div class="accordion-content" id="accessoriesWrapper">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container" id="container"></div>
+        <div class="note-wrapper">
+            <label>Note:</label> The Skyaluxe 3D Configurator is designed to help you visualize your pergola, patio, or carport. The final product may vary slightly in color, materials, or dimensions due to customization and real-world conditions.
+        </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="customJS/loadModel.js"></script> -->
+    <script type="module" src="customJS/main.js"></script>
+    <script type="module" src="customJS/controlUI.js"></script>
+    <script>
+        fetch("layout/Header.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("Header").innerHTML = data;
+            console.log("test");
+        });
+
+        const headers = document.querySelectorAll(".accordion-header");
+        headers.forEach(header => {
+            header.addEventListener("click", () => {
+                header.classList.toggle("active");
+                const content = header.nextElementSibling;
+                content.classList.toggle("show");
+                // if (content.style.maxHeight) {
+                //     content.style.maxHeight = null;
+                // } else {
+                //     content.style.display = "block";
+                // }
+            });
+        });
+    </script>
+
+</body></html>

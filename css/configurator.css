@@ -1,0 +1,144 @@
+
+.body-configurator {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-configurator .main-content {
+    flex: 1;
+    position: relative;
+    display: flex;
+}
+.body-configurator .main-content .container{
+    flex: 1;
+}
+
+.sidebar {
+    width: 320px;
+    background: #f8f9fa;
+    border-right: 1px solid #ddd;
+    height: calc(100vh - 170px);
+}
+.sidebar-inner {
+    height: calc(100vh - 260px);
+    padding: 10px 20px;
+    overflow-y: auto;
+}
+.sidebar h2 {
+    font-size: 18px;
+    margin: 20px;
+    margin-bottom: 0px;
+    color: #333;
+}
+
+.accordion {
+    border-top: 1px solid #ddd;
+}
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+.accordion-header {
+    padding: 12px 16px;
+    background: #f1f1f1;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion-header:hover {
+    background: #e9ecef;
+}
+.accordion-header:after {
+    content: "+";
+    font-weight: bold;
+}
+.accordion-header.active:after {
+    content: "-";
+}
+.accordion-content {
+    /* display: none; */
+    padding: 0px 16px;
+    background: #fff;
+    transition: all 0.3s;
+    max-height: 0;
+    overflow-y: hidden;
+}
+.accordion-content.show {
+    padding: 12px 8px;
+    max-height: 270px;
+}
+.accordion-content .input-row{
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+}
+.accordion-content .input-row .type-label {
+    width: 100px;
+}
+.accordion-content .input-row input {
+    flex: 1;
+}
+.accordion-content .input-row .value-label {
+    width: 40px;
+    text-align: right;
+}
+.accordion-content .input-row select {
+    flex: 1;
+}
+.accordion-content label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.color-options {
+    display: flex;
+    gap: 8px;
+}
+.color-swatch {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+}
+.actions button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.actions button.reset {
+    background: #6c757d;
+}
+
+.note-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: calc(100% - 320px);
+    padding: 20px;
+    background-color: #FFFFFFEE;
+    line-height: 30px;
+}
+.note-wrapper label {
+    font-weight: 700;
+}
