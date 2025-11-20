@@ -51,8 +51,8 @@ document.getElementById('selectModel').addEventListener('change', function() {
 		document.querySelector('input[name="install"][value="attached"]').checked = true;
 		$("#setInstallAttached").show();
 	}
-	modelInfo.front = "clearGlass";
-	modelInfo.back = "clearGlass";
+	modelInfo.front = "none";
+	modelInfo.back = "none";
 	modelInfo.left = "none";
 	modelInfo.right = "none";
 	if (this.value === "car") {
