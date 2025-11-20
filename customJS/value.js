@@ -15,7 +15,7 @@ export const colorArr = [
 	{ name: "White aluminum", code: "#A5A5A5", hex:0xA5A5A5 },
 	{ name: "Anthracite Grey", code: "#383E42", hex:0x383E42 }
 ];
-export const modelInfo = { type:"patio", install:"attached", width: 140, height: 102, length:84, thick:4, gap:0.4, colorHex: colorArr[1].hex, slope:10, roofThick:0.375, roofMat:'none', left:'none', right:'none', front:'none', back:'none', wedge:false, roofShelter:false };
+export const modelInfo = { type:"patio", install:"attached", width: 140, height: 102, length:84, thick:4, gap:0.4, colorHex: colorArr[1].hex, slope:10, roofThick:0.375, roofMat:'clearGlass', left:'none', right:'none', front:'none', back:'none', wedge:false, roofShelter:false };
 
 export const disMainBeam = modelInfo.thick;
 
