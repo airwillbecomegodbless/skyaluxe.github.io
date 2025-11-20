@@ -166,7 +166,11 @@
     <script type="module" src="customJS/main.js"></script>
     <script type="module" src="customJS/controlUI.js"></script>
     <script>
-        
+        fetch("layout/Header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("Header").innerHTML = data;
+            });
 
         const headers = document.querySelectorAll(".accordion-header");
         headers.forEach(header => {
