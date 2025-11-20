@@ -42,7 +42,7 @@
     <meta property="og:type" content="website">
     <meta data-intl-tel-input-cdn-path="intlTelInput/">
 </head>
-<body class="body-configurator" data-path-to-root="/" data-include-products="false" class="u-body u-clearfix u-xxl-mode" data-lang="en">
+<body data-path-to-root="/" data-include-products="false" class="u-body u-clearfix u-xxl-mode" data-lang="en" class="body-configurator">
     
     <div id="Header"></div>
 
@@ -166,12 +166,7 @@
     <script type="module" src="customJS/main.js"></script>
     <script type="module" src="customJS/controlUI.js"></script>
     <script>
-        fetch("layout/Header.html")
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("Header").innerHTML = data;
-            console.log("test");
-        });
+        
 
         const headers = document.querySelectorAll(".accordion-header");
         headers.forEach(header => {
